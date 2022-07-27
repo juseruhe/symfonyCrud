@@ -1,0 +1,27 @@
+index:
+    path: usuario
+    controller: App\Controller\UsersController::index
+
+create:
+    path: crear
+    controller: App\Controller\UsersController::create
+
+store: 
+    path: insertar
+    controller: App\Controller\UsersController::store
+
+delete:
+   path: eliminar/{id}
+   controller: App\Controller\UsersController::delete
+
+show:
+   path: mostrar/{id}
+   controller: App\Controller\UsersController::show
+
+edit:
+   path: editar/{id}
+   controller: App\Controller\UsersController::edit
+
+update:
+   path: update/{id}
+   controller: App\Controller\UsersController::update
